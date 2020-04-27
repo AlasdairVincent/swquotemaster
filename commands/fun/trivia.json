@@ -1,0 +1,406 @@
+{
+    "response_code": 0,
+    "trivia": [
+        {
+            "question": "Which actor is the only one who's appeared in every single Star Wars movie to date?", 
+            "type": "Short", 
+            "answer": "Anthony Daniels",
+            "alias": ["Anthony D", "A Daniels"],
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "1"
+        },
+        {
+            "question": "Which stormtrooper wasn't able to complete his mission in Star Wars: The Force Awakens?", 
+            "type": "Short", 
+            "answer": "FN-2187",
+            "category": "The Force Awakens",
+            "difficulty": "Easy",
+            "id": "2"
+        },
+        {
+            "question": "What kind of vehicle did Rey live in?", 
+            "type": "Short", 
+            "answer": "AT-AT",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "3"
+        },
+        {
+            "question": "According to Master Yoda, how many Sith are always out there?", 
+            "type": "Short", 
+            "answer": "2",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "4"
+        },
+        {
+            "question": "What limb did Anakin lose in his fight with Count Dooku?", 
+            "type": "Short", 
+            "answer": "Right Arm",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "5"
+        },
+        {
+            "question": "Who played the part of Commander Cody?", 
+            "type": "Short", 
+            "answer": "Temuera Morrison",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "6"
+        },
+        {
+            "question": "Who killed Jabba?", 
+            "type": "Short", 
+            "answer": "Leia",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "7"
+        },
+        {
+            "question": "Where did the Clone Wars begin?", 
+            "type": "Short", 
+            "answer": "Geonosis",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "8"
+        },
+        {
+            "question": "What is the color of C-3PO's arm in Star Wars: The Force Awakens?", 
+            "type": "Short", 
+            "answer": "Red",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "9"
+        },
+        {
+            "question": "Who adopted Padmé Amidala's daughter?", 
+            "type": "Short", 
+            "answer": "Bail Organa",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "10"
+        },
+        {
+            "question": "Who first and most famously played the part of Chewbacca?", 
+            "type": "Short", 
+            "answer": "Peter Mayhew",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "11"
+        },
+        {
+            "question": "What was the job that Finn told Han Solo he had on Starkiller base?", 
+            "type": "Short", 
+            "answer": "Sanitation",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "12"
+        },
+        {
+            "question": "Where were the Hoth sequences filmed? (Real world country)", 
+            "type": "Short", 
+            "answer": "Norway",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "13"
+        },
+        {
+            "question": "How old was Anakin Skywalker during the battle on Genosis?", 
+            "type": "Short", 
+            "answer": "20",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "14"
+        },
+        {
+            "question": "Who fixed the hyperdrive on the Millennium Falcon?", 
+            "type": "Short", 
+            "answer": "R2-D2",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "15"
+        },
+        {
+            "question": "Who killed Jango Fett?", 
+            "type": "Short", 
+            "answer": "Mace Windu",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "16"
+        },
+        {
+            "question": "Which bounty hunter was trying to capture Han Solo when Greedo arrived first?", 
+            "type": "Short", 
+            "answer": "Danz Borin",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "17"
+        },
+        {
+            "question": "Who taught Lando Calrissian how to pilot a ship?", 
+            "type": "Short", 
+            "answer": "Han Solo",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "18"
+        },
+        {
+            "question": "How many lightsabers does General Grievous wield in his fight with Obi-Wan on Utapau?", 
+            "type": "Short", 
+            "answer": "4",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "19"
+        },
+        {
+            "question": "Who offered to lead the attack against the Death Star?", 
+            "type": "Short", 
+            "answer": "Lando",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "20"
+        },
+        {
+            "question": "What species is Chewbacca?", 
+            "type": "Short", 
+            "answer": "Wookiee",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "21"
+        },
+        {
+            "question": "What was the name of the standard rifle carried by the clone troopers?", 
+            "type": "Short", 
+            "answer": "DC-15A",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "22"
+        },
+        {
+            "question": "Count Dooku was one of how many Jedi who had left the Jedi Order?", 
+            "type": "Short", 
+            "answer": "20",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "23"
+        },
+        {
+            "question": "Who joined Poe Dameron in his X-Wing in order to help destroy Starkiller?", 
+            "type": "Short", 
+            "answer": "BB-8",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "24"
+        },
+        {
+            "question": "Who gave FN-2187 his new name when they found out that he didn't have a real name?", 
+            "type": "Short", 
+            "answer": "Poe",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "25"
+        },
+        {
+            "question": "What kind of weapon did Han Solo carry?", 
+            "type": "Short", 
+            "answer": "DL-44 pistol",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "26"
+        },
+        {
+            "question": "Who provided the voice for General Grievous?", 
+            "type": "Short", 
+            "answer": "Matthew Wood",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "27"
+        },
+        {
+            "question": "How many Rathtars did Han Solo and Chewbacca have on their ship?", 
+            "type": "Short", 
+            "answer": "3",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "28"
+        },
+        {
+            "question": "What was Grand Moff Tarkin's impression of Leia's presence on board the Death Star?", 
+            "type": "Short (one word)", 
+            "answer": "Charming",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "29"
+        },
+        {
+            "question": "How many meals does Jabba consume per day?", 
+            "type": "Short", 
+            "answer": "9",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "30"
+        },
+        {
+            "question": "What did Yoda tell Obi-Wan after he had said That boy is our last hope?", 
+            "type": "Short", 
+            "answer": "No, there is another",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "31"
+        },
+        {
+            "question": "Who provided the voice of Darth Vader?", 
+            "type": "Short", 
+            "answer": "James Earl Jones",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "32"
+        },
+        {
+            "question": "Who said, 'So this is how liberty dies... with thunderous applause'?", 
+            "type": "Short", 
+            "answer": "Padmé Amidala",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "33"
+        },
+        {
+            "question": "What is the language of the Wookiees?", 
+            "type": "Short", 
+            "answer": "Shyriiwook",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "34"
+        },
+        {
+            "question": "Who freed Han Solo from the carbonite?", 
+            "type": "Short", 
+            "answer": "Leia",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "35"
+        },
+        {
+            "question": "Who said, 'Feel. Do not think. Trust your instincts?'", 
+            "type": "Short", 
+            "answer": "Qui-Gon Jinn",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "36"
+        },
+        {
+            "question": "How old was Padmé when she was elected the Queen of Naboo?", 
+            "type": "Short", 
+            "answer": "14",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "37"
+        },
+        {
+            "question": "Whose lightsaber did Luke Skywalker receive from Obi-Wan?", 
+            "type": "Short", 
+            "answer": "Anakin's",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "38"
+        },
+        {
+            "question": "Who told Rey, 'I am no Jedi, but I know the Force'?", 
+            "type": "Short", 
+            "answer": "Maz Kanata",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "39"
+        },
+        {
+            "question": "What did Anakin say Padmé resembled when she questioned the state of the Republic?", 
+            "type": "Short", 
+            "answer": "A Separatist",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "40"
+        },
+        {
+            "question": "According to Obi-Wan, what is a lightsaber to a Jedi?", 
+            "type": "Short", 
+            "answer": "Their life",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "41"
+        },
+        {
+            "question": "What is Kylo Ren's given name?", 
+            "type": "Short", 
+            "answer": "Ben",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "42"
+        },
+        {
+            "question": "Who directed Return of the Jedi?",
+            "type": "Short", 
+            "answer": "Richard Marquand",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "43"
+        },
+        {
+            "question": "What species is Jabba?", 
+            "type": "Short", 
+            "answer": "Hutt",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "44"
+        },
+        {
+            "question": "What did Han Solo call the Kanjiklub?", 
+            "type": "Short", 
+            "answer": "Little freaks",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "45"
+        },
+        {
+            "question": "On what planet did Han Solo accept Chewbacca as his partner?", 
+            "type": "Short", 
+            "answer": "Devaron",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "46"
+        },
+        {
+            "question": "What was the cell number where Princess Leia was imprisoned?", 
+            "type": "Short", 
+            "answer": "2187",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "47"
+        },
+        {
+            "question": "What is Jabba's complete name?", 
+            "type": "Short", 
+            "answer": "Jabba Desilijic Tiure",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "48"
+        },
+        {
+            "question": "How many spires does the Jedi Temple have?", 
+            "type": "Short", 
+            "answer": "5",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "49"
+        },
+        {
+            "question": "What is the birth planet of Han Solo?", 
+            "type": "Short", 
+            "answer": "Corellia",
+            "category": "Star Wars",
+            "difficulty": "Easy",
+            "id": "50"
+        }
+    ]
+}

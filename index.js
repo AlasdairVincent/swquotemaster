@@ -1,4 +1,4 @@
-const { Client, Collection } = require("discord.js");
+const { Client, Collection, MessageEmbed } = require("discord.js");
 const { config } = require("dotenv");
 const fs = require("fs");
 
@@ -19,18 +19,21 @@ config({
     require(`./handler/${handler}`)(client);
 });
 
+
+//Discord Presence Description
 client.on("ready", () => {
     console.log(`Hi, ${client.user.username} is now online!`);
 
     client.user.setPresence({
         status: "online",
-        game: {
-            name: "me getting developed",
-            type: "STREAMING"
+        activity: {
+            name: "my development",
+            type: "WATCHING"
         }
     }); 
 });
 
+//Handling commands
 client.on("message", async message => {
     const prefix = "!";
 
@@ -41,6 +44,7 @@ client.on("message", async message => {
 
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
     const cmd = args.shift().toLowerCase();
+    const author = message.member.user;
     
     if (cmd.length === 0) return;
     
@@ -48,7 +52,19 @@ client.on("message", async message => {
     if (!command) command = client.commands.get(client.aliases.get(cmd));
 
     if (command) 
-        command.run(client, message, args);
+        command.run(client, message, args, author);
 });
+
+//Console logging messages
+client.on('message', message => {
+    if (message.author.bot)
+    {
+        console.log(`🤖 ${client.user.username} said: ${message.content}`);
+    }
+    else
+    {
+        console.log(`💬 ${message.member.user.tag} said: ${message.content}`);
+    }
+})
 
 client.login(process.env.TOKEN);
