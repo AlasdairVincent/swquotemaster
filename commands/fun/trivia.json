@@ -2,11 +2,11 @@
     "response_code": 0,
     "trivia": [
         {
-            "question": "Which actor is the only one who's appeared in every single Star Wars movie to date?", 
+            "question": "Which actor is the only one who's appeared in every single Skywalker Saga movie to date?", 
             "type": "Short", 
             "answer": "Anthony Daniels",
             "alias": ["Anthony D", "A Daniels"],
-            "category": "Star Wars",
+            "category": "sw",
             "difficulty": "Easy",
             "id": "1"
         },
@@ -14,7 +14,8 @@
             "question": "Which stormtrooper wasn't able to complete his mission in Star Wars: The Force Awakens?", 
             "type": "Short", 
             "answer": "FN-2187",
-            "category": "The Force Awakens",
+            "alias": ["Finn", "Fin", "FN2187", "FN 2187"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "2"
         },
@@ -22,7 +23,8 @@
             "question": "What kind of vehicle did Rey live in?", 
             "type": "Short", 
             "answer": "AT-AT",
-            "category": "Star Wars",
+            "alias": ["atat", "at at", "AT-AT Walker"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "3"
         },
@@ -30,7 +32,8 @@
             "question": "According to Master Yoda, how many Sith are always out there?", 
             "type": "Short", 
             "answer": "2",
-            "category": "Star Wars",
+            "alias": ["Two"],
+            "category": "tpm",
             "difficulty": "Easy",
             "id": "4"
         },
@@ -38,7 +41,8 @@
             "question": "What limb did Anakin lose in his fight with Count Dooku?", 
             "type": "Short", 
             "answer": "Right Arm",
-            "category": "Star Wars",
+            "alias": ["His right arm"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "5"
         },
@@ -46,7 +50,8 @@
             "question": "Who played the part of Commander Cody?", 
             "type": "Short", 
             "answer": "Temuera Morrison",
-            "category": "Star Wars",
+            "alias": ["T Morrison"],
+            "category": "rots",
             "difficulty": "Easy",
             "id": "6"
         },
@@ -54,7 +59,8 @@
             "question": "Who killed Jabba?", 
             "type": "Short", 
             "answer": "Leia",
-            "category": "Star Wars",
+            "alias": ["Princess Leia", "Leia Organa"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "7"
         },
@@ -62,7 +68,8 @@
             "question": "Where did the Clone Wars begin?", 
             "type": "Short", 
             "answer": "Geonosis",
-            "category": "Star Wars",
+            "alias": ["Geonosis arena"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "8"
         },
@@ -70,7 +77,8 @@
             "question": "What is the color of C-3PO's arm in Star Wars: The Force Awakens?", 
             "type": "Short", 
             "answer": "Red",
-            "category": "Star Wars",
+            "alias": ["Red"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "9"
         },
@@ -78,7 +86,8 @@
             "question": "Who adopted Padmé Amidala's daughter?", 
             "type": "Short", 
             "answer": "Bail Organa",
-            "category": "Star Wars",
+            "alias": ["B Organa", "Bail"],
+            "category": "rots",
             "difficulty": "Easy",
             "id": "10"
         },
@@ -86,7 +95,8 @@
             "question": "Who first and most famously played the part of Chewbacca?", 
             "type": "Short", 
             "answer": "Peter Mayhew",
-            "category": "Star Wars",
+            "alias": ["P Mayhew"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "11"
         },
@@ -94,7 +104,8 @@
             "question": "What was the job that Finn told Han Solo he had on Starkiller base?", 
             "type": "Short", 
             "answer": "Sanitation",
-            "category": "Star Wars",
+            "alias": ["Sanitation worker", "in sanitation"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "12"
         },
@@ -102,15 +113,17 @@
             "question": "Where were the Hoth sequences filmed? (Real world country)", 
             "type": "Short", 
             "answer": "Norway",
-            "category": "Star Wars",
+            "alias": ["Norway"],
+            "category": "esb",
             "difficulty": "Easy",
             "id": "13"
         },
         {
-            "question": "How old was Anakin Skywalker during the battle on Genosis?", 
+            "question": "How old was Anakin Skywalker during the battle on Geonosis?", 
             "type": "Short", 
             "answer": "20",
-            "category": "Star Wars",
+            "alias": ["Twenty"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "14"
         },
@@ -118,7 +131,8 @@
             "question": "Who fixed the hyperdrive on the Millennium Falcon?", 
             "type": "Short", 
             "answer": "R2-D2",
-            "category": "Star Wars",
+            "alias": ["R2D2", "R2 D2", "R2", "Rtoo", "Artoo"],
+            "category": "esb",
             "difficulty": "Easy",
             "id": "15"
         },
@@ -126,7 +140,8 @@
             "question": "Who killed Jango Fett?", 
             "type": "Short", 
             "answer": "Mace Windu",
-            "category": "Star Wars",
+            "alias": ["Mace", "Windu"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "16"
         },
@@ -134,7 +149,8 @@
             "question": "Which bounty hunter was trying to capture Han Solo when Greedo arrived first?", 
             "type": "Short", 
             "answer": "Danz Borin",
-            "category": "Star Wars",
+            "alias": ["Danz", "Borin"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "17"
         },
@@ -142,7 +158,8 @@
             "question": "Who taught Lando Calrissian how to pilot a ship?", 
             "type": "Short", 
             "answer": "Han Solo",
-            "category": "Star Wars",
+            "alias": ["Han", "Solo"],
+            "category": "esb",
             "difficulty": "Easy",
             "id": "18"
         },
@@ -150,7 +167,8 @@
             "question": "How many lightsabers does General Grievous wield in his fight with Obi-Wan on Utapau?", 
             "type": "Short", 
             "answer": "4",
-            "category": "Star Wars",
+            "alias": ["Four"],
+            "category": "rots",
             "difficulty": "Easy",
             "id": "19"
         },
@@ -158,7 +176,8 @@
             "question": "Who offered to lead the attack against the Death Star?", 
             "type": "Short", 
             "answer": "Lando",
-            "category": "Star Wars",
+            "alias": ["Lando Calrissian"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "20"
         },
@@ -166,7 +185,8 @@
             "question": "What species is Chewbacca?", 
             "type": "Short", 
             "answer": "Wookiee",
-            "category": "Star Wars",
+            "alias": ["Wookkiee", "Wookie", "Wookkie"],
+            "category": "sw",
             "difficulty": "Easy",
             "id": "21"
         },
@@ -174,7 +194,8 @@
             "question": "What was the name of the standard rifle carried by the clone troopers?", 
             "type": "Short", 
             "answer": "DC-15A",
-            "category": "Star Wars",
+            "alias": ["dc15a", "dc15-a", "dc-15-a", "dc-15 a"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "22"
         },
@@ -182,7 +203,8 @@
             "question": "Count Dooku was one of how many Jedi who had left the Jedi Order?", 
             "type": "Short", 
             "answer": "20",
-            "category": "Star Wars",
+            "alias": ["Twenty"],
+            "category": "sw",
             "difficulty": "Easy",
             "id": "23"
         },
@@ -190,7 +212,8 @@
             "question": "Who joined Poe Dameron in his X-Wing in order to help destroy Starkiller?", 
             "type": "Short", 
             "answer": "BB-8",
-            "category": "Star Wars",
+            "alias": ["BB8", "BB 8"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "24"
         },
@@ -198,7 +221,8 @@
             "question": "Who gave FN-2187 his new name when they found out that he didn't have a real name?", 
             "type": "Short", 
             "answer": "Poe",
-            "category": "Star Wars",
+            "alias": ["Poe Dameron", "Dameron"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "25"
         },
@@ -206,7 +230,8 @@
             "question": "What kind of weapon did Han Solo carry?", 
             "type": "Short", 
             "answer": "DL-44 pistol",
-            "category": "Star Wars",
+            "alias": ["DL-44", "DL44", "DL44 pistol", "DL-44 blaster", "DL44 blaster", "DL 44"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "26"
         },
@@ -214,7 +239,8 @@
             "question": "Who provided the voice for General Grievous?", 
             "type": "Short", 
             "answer": "Matthew Wood",
-            "category": "Star Wars",
+            "alias": ["M Wood"],
+            "category": "rots",
             "difficulty": "Easy",
             "id": "27"
         },
@@ -222,15 +248,17 @@
             "question": "How many Rathtars did Han Solo and Chewbacca have on their ship?", 
             "type": "Short", 
             "answer": "3",
-            "category": "Star Wars",
+            "alias": ["Three"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "28"
         },
         {
             "question": "What was Grand Moff Tarkin's impression of Leia's presence on board the Death Star?", 
-            "type": "Short (one word)", 
+            "type": "Short", 
             "answer": "Charming",
-            "category": "Star Wars",
+            "alias": ["Charming to the last"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "29"
         },
@@ -238,15 +266,17 @@
             "question": "How many meals does Jabba consume per day?", 
             "type": "Short", 
             "answer": "9",
-            "category": "Star Wars",
+            "alias": ["Nine"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "30"
         },
         {
-            "question": "What did Yoda tell Obi-Wan after he had said That boy is our last hope?", 
+            "question": "What did Yoda tell Obi-Wan after he had said 'That boy is our last hope'?", 
             "type": "Short", 
             "answer": "No, there is another",
-            "category": "Star Wars",
+            "alias": ["No there is another", "No. There is another", "No. There is another.", "No, there is another.", "No there is another."],
+            "category": "esb",
             "difficulty": "Easy",
             "id": "31"
         },
@@ -254,7 +284,8 @@
             "question": "Who provided the voice of Darth Vader?", 
             "type": "Short", 
             "answer": "James Earl Jones",
-            "category": "Star Wars",
+            "alias": ["James E Jones", "J Earl Jones"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "32"
         },
@@ -262,7 +293,8 @@
             "question": "Who said, 'So this is how liberty dies... with thunderous applause'?", 
             "type": "Short", 
             "answer": "Padmé Amidala",
-            "category": "Star Wars",
+            "alias": ["Padme", "Padme Amidala", "Senator Amidala", "Padmé"],
+            "category": "rots",
             "difficulty": "Easy",
             "id": "33"
         },
@@ -270,23 +302,26 @@
             "question": "What is the language of the Wookiees?", 
             "type": "Short", 
             "answer": "Shyriiwook",
-            "category": "Star Wars",
+            "alias": ["Shyriiwook"],
+            "category": "sw",
             "difficulty": "Easy",
             "id": "34"
         },
         {
-            "question": "Who freed Han Solo from the carbonite?", 
+            "question": "Who freed Han Solo from carbonite?", 
             "type": "Short", 
             "answer": "Leia",
-            "category": "Star Wars",
+            "alias": ["Princess Leia", "Leia Organa"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "35"
         },
         {
-            "question": "Who said, 'Feel. Do not think. Trust your instincts?'", 
+            "question": "Who said, 'Feel. Don't think. Trust your instincts?'", 
             "type": "Short", 
             "answer": "Qui-Gon Jinn",
-            "category": "Star Wars",
+            "alias": ["Qui-Gon", "Qui Gon Jinn", "Qui Gon", "QuiGon", "Qui-Gon Jin"],
+            "category": "tpm",
             "difficulty": "Easy",
             "id": "36"
         },
@@ -294,7 +329,8 @@
             "question": "How old was Padmé when she was elected the Queen of Naboo?", 
             "type": "Short", 
             "answer": "14",
-            "category": "Star Wars",
+            "alias": ["Fourteen"],
+            "category": "tpm",
             "difficulty": "Easy",
             "id": "37"
         },
@@ -302,7 +338,8 @@
             "question": "Whose lightsaber did Luke Skywalker receive from Obi-Wan?", 
             "type": "Short", 
             "answer": "Anakin's",
-            "category": "Star Wars",
+            "alias": ["Anakins", "Anakin"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "38"
         },
@@ -310,7 +347,8 @@
             "question": "Who told Rey, 'I am no Jedi, but I know the Force'?", 
             "type": "Short", 
             "answer": "Maz Kanata",
-            "category": "Star Wars",
+            "alias": ["Maz", "Kanata"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "39"
         },
@@ -318,7 +356,8 @@
             "question": "What did Anakin say Padmé resembled when she questioned the state of the Republic?", 
             "type": "Short", 
             "answer": "A Separatist",
-            "category": "Star Wars",
+            "alias": ["Separatist"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "40"
         },
@@ -326,7 +365,8 @@
             "question": "According to Obi-Wan, what is a lightsaber to a Jedi?", 
             "type": "Short", 
             "answer": "Their life",
-            "category": "Star Wars",
+            "alias": ["life", "there life", "your life"],
+            "category": "aotc",
             "difficulty": "Easy",
             "id": "41"
         },
@@ -334,7 +374,8 @@
             "question": "What is Kylo Ren's given name?", 
             "type": "Short", 
             "answer": "Ben",
-            "category": "Star Wars",
+            "alias": ["Ben Solo"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "42"
         },
@@ -342,7 +383,8 @@
             "question": "Who directed Return of the Jedi?",
             "type": "Short", 
             "answer": "Richard Marquand",
-            "category": "Star Wars",
+            "alias": ["Marquand"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "43"
         },
@@ -350,7 +392,8 @@
             "question": "What species is Jabba?", 
             "type": "Short", 
             "answer": "Hutt",
-            "category": "Star Wars",
+            "alias": ["Huttese"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "44"
         },
@@ -358,15 +401,17 @@
             "question": "What did Han Solo call the Kanjiklub?", 
             "type": "Short", 
             "answer": "Little freaks",
-            "category": "Star Wars",
+            "alias": ["freaks", "a bunch of little freaks", "bunch of little freaks"],
+            "category": "tfa",
             "difficulty": "Easy",
             "id": "45"
         },
         {
-            "question": "On what planet did Han Solo accept Chewbacca as his partner?", 
+            "question": "On what planet did Han Solo meet Chewbacca?", 
             "type": "Short", 
-            "answer": "Devaron",
-            "category": "Star Wars",
+            "answer": "Mimban",
+            "alias": ["Mimban."],
+            "category": "solo",
             "difficulty": "Easy",
             "id": "46"
         },
@@ -374,7 +419,8 @@
             "question": "What was the cell number where Princess Leia was imprisoned?", 
             "type": "Short", 
             "answer": "2187",
-            "category": "Star Wars",
+            "alias": ["21-87"],
+            "category": "anh",
             "difficulty": "Easy",
             "id": "47"
         },
@@ -382,7 +428,8 @@
             "question": "What is Jabba's complete name?", 
             "type": "Short", 
             "answer": "Jabba Desilijic Tiure",
-            "category": "Star Wars",
+            "alias": ["Jabba Desilijictiure"],
+            "category": "rotj",
             "difficulty": "Easy",
             "id": "48"
         },
@@ -390,7 +437,8 @@
             "question": "How many spires does the Jedi Temple have?", 
             "type": "Short", 
             "answer": "5",
-            "category": "Star Wars",
+            "alias": ["Five"],
+            "category": "sw",
             "difficulty": "Easy",
             "id": "49"
         },
@@ -398,9 +446,1361 @@
             "question": "What is the birth planet of Han Solo?", 
             "type": "Short", 
             "answer": "Corellia",
-            "category": "Star Wars",
+            "alias": ["Corellia."],
+            "category": "solo",
             "difficulty": "Easy",
             "id": "50"
+        },
+        {
+            "question": "Wo was Cloud City's computer liaison officer?", 
+            "type": "Short", 
+            "answer": "Lobot",
+            "alias": ["Lo"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "51"
+        },
+        {
+            "question": "Who said, 'Luke, don't give in to hate'?", 
+            "type": "Short", 
+            "answer": "Obi-Wan Kenobi",
+            "alias": ["Obi", "Obiwan", "Obi-wan", "Kenobi"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "52"
+        },
+        {
+            "question": "Who did Vader need to contact when he asked Admiral Piett to move the Executor so they could send a clear signal?", 
+            "type": "Short", 
+            "answer": "Emperor Palpatine",
+            "alias": ["Palpatine", "palps", "The Emperor"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "53"
+        },
+        {
+            "question": "Who was Luke's tail gunner in the Battle of Hoth?", 
+            "type": "Short", 
+            "answer": "Dak Ralter",
+            "alias": ["Dak"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "54"
+        },
+        {
+            "question": "Who said, 'You have a responsibility to me, so don't do anything foolish'?", 
+            "type": "Short", 
+            "answer": "C-3PO",
+            "alias": ["C3PO", "C 3PO", "C3P0"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "55"
+        },
+        {
+            "question": "Where did General Rieekan order to have the power in Echo Base rerouted to?", 
+            "type": "Short", 
+            "answer": "The energy shield",
+            "alias": ["energy shield"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "56"
+        },
+        {
+            "question": "Who said, 'He's no good to me dead'?", 
+            "type": "Short", 
+            "answer": "Boba Fett",
+            "alias": ["Boba"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "57"
+        },
+        {
+            "question": "Which actor played Wedge Antilles?", 
+            "type": "Short", 
+            "answer": "Denis Lawson",
+            "alias": ["Denis L", "Lawson"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "58"
+        },
+        {
+            "question": "How many locations was the tractor beam coupled to the main reactor on the Death Star?", 
+            "type": "Short", 
+            "answer": "Seven",
+            "alias": ["7"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "59"
+        },
+        {
+            "question": "What mission did Princess Leia give Obi-Wan Kenobi?", 
+            "type": "Short", 
+            "answer": "To take R2-D2 to Alderaan",
+            "alias": ["take R2-D2 to Alderaan", "take R2D2 to Alderaan", "To take R2D2 to Alderaan"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "60"
+        },
+        {
+            "question": "Which character did Shelagh Fraser play?", 
+            "type": "Short", 
+            "answer": "Beru Lars",
+            "alias": ["Beru", "Berru"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "61"
+        },
+        {
+            "question": "Who said, 'into the garbage chut, fly boy!'?", 
+            "type": "Short", 
+            "answer": "Princess Leia",
+            "alias": ["Leia", "Leia Organa"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "62"
+        },
+        {
+            "question": "Which character did Phil Brown play?", 
+            "type": "Short", 
+            "answer": "Owen Lars",
+            "alias": ["Owen"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "63"
+        },
+        {
+            "question": "Where did the exhaust port the Rebel pilots had to target lead directly to?", 
+            "type": "Short", 
+            "answer": "The reactor system",
+            "alias": ["Reactor System", "Reactor"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "64"
+        },
+        {
+            "question": "Who said, 'There'll be no escape for the princess this time'?", 
+            "type": "Short", 
+            "answer": "C-3PO",
+            "alias": ["C3PO", "C3P0", "C-3P0"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "65"
+        },
+        {
+            "question": "How many TIE fighters make up a typical attack squadron?", 
+            "type": "Short", 
+            "answer": "Twelve",
+            "alias": ["12"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "66"
+        },
+        {
+            "question": "How many laser cannons does the TIE Advanced x1 have?", 
+            "type": "Short", 
+            "answer": "Two",
+            "alias": ["2"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "67"
+        },
+        {
+            "question": "On what level was Princess Leia being held prisoner?", 
+            "type": "Short", 
+            "answer": "Level five",
+            "alias": ["5", "Five", "Level 5"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "68"
+        },
+        {
+            "question": "Where did Luke bulls-eye womp rats?", 
+            "type": "Short", 
+            "answer": "Beggar's Canyon",
+            "alias": ["Beggars Canyon", "At Beggar's Canyon", "At Beggars Canyon", "In Beggar's Canyon", "In Beggars Canyon"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "69"
+        },
+        {
+            "question": "What cellblock was Chewbacca supposedly being transferred to while rescuing Princess Leia?", 
+            "type": "Short", 
+            "answer": "Cellblock 1138",
+            "alias": ["1138", "block 1138"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "70"
+        },
+        {
+            "question": "What did C-3PO 'thank the Maker' for?", 
+            "type": "Short", 
+            "answer": "An oil bath",
+            "alias": ["Oil bath", "bath"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "71"
+        },
+        {
+            "question": "What Admiral came out of lightspeed too close to the Hoth System?", 
+            "type": "Short", 
+            "answer": "Admiral Ozzel",
+            "alias": ["Ozzel"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "72"
+        },
+        {
+            "question": "What was wrong with R5-D4?", 
+            "type": "Short", 
+            "answer": "It had a bad motivator",
+            "alias": ["bad motivator", "He had a bad motivator", "had a bad motivator", "a bad motivator", "Motivator blew"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "73"
+        },
+        {
+            "question": "On the first Death Star, which trash compactor were Luke, Han, Leia, and Chewbacca trapped in?", 
+            "type": "Short", 
+            "answer": "32-5-3827",
+            "alias": ["3253827", "32 5 3827"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "74"
+        },
+        {
+            "question": "What were Han Solo's last words to Luke before the Battle of Yavin?", 
+            "type": "Short", 
+            "answer": "May the Force Be With You",
+            "alias": ["May the Force Be With u"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "75"
+        },
+        {
+            "question": "Who said, 'I find your lack of faith disturbing'?", 
+            "type": "Short", 
+            "answer": "Darth Vader",
+            "alias": ["Vader"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "76"
+        },
+        {
+            "question": "Who said, 'You were right about one thing, Master.  The negotiations were short'?", 
+            "type": "Short", 
+            "answer": "Obi-Wan Kenobi",
+            "alias": ["Obiwan", "Kenobi", "Obi-Wan", "Obiwan Kenobi", "Obi", "Obi Wan"],
+            "category": "tpm",
+            "difficulty": "Easy",
+            "id": "77"
+        },
+        {
+            "question": "Who owned Anakin before Watto?", 
+            "type": "Short", 
+            "answer": "Gardulla the Hutt",
+            "alias": ["Gardulla", "His Mother"],
+            "category": "tpm",
+            "difficulty": "Easy",
+            "id": "78"
+        },
+        {
+            "question": "What Rodian accompanied Jabba to confront Han Solo in Mos Eisley?", 
+            "type": "Short", 
+            "answer": "Thuku",
+            "alias": ["Not Greedo"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "79"
+        },
+        {
+            "question": "What aspect of the Force was most important to Qui-Gon?", 
+            "type": "Short", 
+            "answer": "The living Force",
+            "alias": ["living Force", "The living", "living"],
+            "category": "tpm",
+            "difficulty": "Easy",
+            "id": "80"
+        },
+        {
+            "question": "What was Queen Amidala's birth name?", 
+            "type": "Short", 
+            "answer": "Padmé Naberrie",
+            "alias": ["Padme Naberrie", "Naberrie"],
+            "category": "tpm",
+            "difficulty": "Easy",
+            "id": "81"
+        },
+        {
+            "question": "On which planet did Obi-Wan and Qui-Gon first form a connection?", 
+            "type": "Short", 
+            "answer": "Bandomeer",
+            "alias": ["Bandomere"],
+            "category": "tpm",
+            "difficulty": "Easy",
+            "id": "82"
+        },
+        {
+            "question": "What species is also know as a 'snow lizard'?", 
+            "type": "Short", 
+            "answer": "Tauntaun",
+            "alias": ["Taun-Taun", "A tauntaun", "A taun-taun", "A taun taun", "taun taun"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "83"
+        },
+        {
+            "question": "Who said, 'They can't have disappeared.  No ship that small has a cloaking device'?", 
+            "type": "Short", 
+            "answer": "Captain Needa",
+            "alias": ["Needa"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "84"
+        },
+        {
+            "question": "Which rebel pilot reported they had found Han and Luke on Hoth?", 
+            "type": "Short", 
+            "answer": "Rogue Two",
+            "alias": ["Rogue 2"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "85"
+        },
+        {
+            "question": "To whom did Darth Vader make a point of stressing, 'No disintegrations'?", 
+            "type": "Short", 
+            "answer": "Boba Fett",
+            "alias": ["Boba"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "86"
+        },
+        {
+            "question": "What did not concern Darth Vader, while talking to Admiral Piett?", 
+            "type": "Short", 
+            "answer": "Asteroids",
+            "alias": ["The Asteroids", "Asteroid Field", "The Asteroid Field"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "87"
+        },
+        {
+            "question": "What was in zone twelve, moving East?", 
+            "type": "Short", 
+            "answer": "The probe droid",
+            "alias": ["Probe Droid"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "88"
+        },
+        {
+            "question": "Which actor was inside R2-D2?", 
+            "type": "Short", 
+            "answer": "Kenny Baker",
+            "alias": ["K Baker"],
+            "category": "sw",
+            "difficulty": "Easy",
+            "id": "89"
+        },
+        {
+            "question": "Who said, 'Good against remotes is one thing.  Good against the living, that's something else.'?", 
+            "type": "Short", 
+            "answer": "Han Solo",
+            "alias": ["Han", "Solo"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "90"
+        },
+        {
+            "question": "Which species' culture is based solely on hunting and tracking those weaker than themselves?", 
+            "type": "Short", 
+            "answer": "Trandoshans",
+            "alias": ["The Trandoshans", "Trandoshan"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "91"
+        },
+        {
+            "question": "Which Imperial Officer was in charge of the ground assault against the Rebels on Hoth?", 
+            "type": "Short", 
+            "answer": "General Veers",
+            "alias": ["Veers"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "92"
+        },
+        {
+            "question": "Who was the first tail gunner to harpoon an AT-AT during the Battle of Hoth?", 
+            "type": "Short", 
+            "answer": "Wes Janson",
+            "alias": ["Wes"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "93"
+        },
+        {
+            "question": "Who was in charge of Echo Base?", 
+            "type": "Short", 
+            "answer": "General Rieekan",
+            "alias": ["Rieekan"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "94"
+        },
+        {
+            "question": "What was Han Solo's rank during the Battle of Hoth?", 
+            "type": "Short", 
+            "answer": "Captain",
+            "alias": ["Captain Han Solo", "Captain Solo"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "95"
+        },
+        {
+            "question": "Luke, Han, Leia, and Chewbacca couldn't blast their way out of the trash compactor because it was _____ sealed", 
+            "type": "Short", 
+            "answer": "magnetically",
+            "alias": ["magneticaly"],
+            "category": "anh",
+            "difficulty": "Easy",
+            "id": "96"
+        },
+        {
+            "question": "What was Luke's rank during the Battle of Hoth?", 
+            "type": "Short", 
+            "answer": "Commander",
+            "alias": ["Commander Skywalker", "Commander Luke Skywalker"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "97"
+        },
+        {
+            "question": "Who said, 'I am not a committee!'", 
+            "type": "Short", 
+            "answer": "Princess Leia",
+            "alias": ["Leia", "Leia Organa", "Princess Leia Organa"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "98"
+        },
+        {
+            "question": "Who was Echo Three?", 
+            "type": "Short", 
+            "answer": "Luke Skywalker",
+            "alias": ["Luke"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "99"
+        },
+        {
+            "question": "Who said, 'You truly belong with us here among the clouds'?", 
+            "type": "Short", 
+            "answer": "Lando Calrissian",
+            "alias": ["Lando"],
+            "category": "esb",
+            "difficulty": "Easy",
+            "id": "100"
+        },
+        {
+            "question": "Who established a new Droid factory on Metalorn at the request of Count Dooku?", 
+            "type": "Short", 
+            "answer": "Wat Tambor",
+            "alias": ["Tambor"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "101"
+        },
+        {
+            "question": "What Vurk was seated in Chancellor Palpatine's box at the Galaxies Opera House?", 
+            "type": "Short", 
+            "answer": "Sweitt Concorkill",
+            "alias": ["Concorkill", "Sweitt"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "102"
+        },
+
+        {
+            "question": "What Wookiee is the leader of the city Kachirho on Kashyyyk?", 
+            "type": "Short", 
+            "answer": "Tarfful",
+            "alias": ["Tarful", "Tarfull"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "103"
+        },
+        {
+            "question": "What was Senator Mon Mothma's home planet?", 
+            "type": "Short", 
+            "answer": "Chandrila",
+            "alias": ["Chandrila"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "104"
+        },
+        {
+            "question": "Who, according to Obi-Wan Kenobi, had to be the poster boy?", 
+            "type": "Short", 
+            "answer": "Anakin Skywalker",
+            "alias": ["Anakin", "Ani"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "105"
+        },
+        {
+            "question": "Where is Rystall Sant from?", 
+            "type": "Short", 
+            "answer": "New Bornelax",
+            "alias": ["Bornelax"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "106"
+        },
+        {
+            "question": "Who was the Mon Calamari representative from Mon Calamari?", 
+            "type": "Short", 
+            "answer": "Meena Tills",
+            "alias": ["Meena", "Tills"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "107"
+        },
+        {
+            "question": "What clone trooper shot down Plo Koon during Order 66?", 
+            "type": "Short", 
+            "answer": "Captain Jag",
+            "alias": ["Jag", "Clone Trooper Jag"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "108"
+        },
+        {
+            "question": "Who was the administress to the Commerce Guild Presidente?", 
+            "type": "Short", 
+            "answer": "Cat Miin",
+            "alias": ["Cat", "Miin"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "109"
+        },
+        {
+            "question": "Which Wookiee was considered a master of the ryyk blade?", 
+            "type": "Short", 
+            "answer": "Salporin",
+            "alias": ["Salporin"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "110"
+        },
+        {
+            "question": "What politician split his time between estates on Coruscant, Ghorman and Sern Prime?", 
+            "type": "Short", 
+            "answer": "Fang Zar",
+            "alias": ["Fang", "Zar"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "111"
+        },
+        {
+            "question": "On Polis Massa, who told Yoda that Obi-Wan Kenobi had made contact?", 
+            "type": "Short", 
+            "answer": "Bail Organa",
+            "alias": ["Bail", "Organa"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "112"
+        },
+        {
+            "question": "Sheltay Retrac worked for which senator?", 
+            "type": "Short", 
+            "answer": "Bail Organa",
+            "alias": ["Bail", "Organa"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "113"
+        },
+        {
+            "question": "Who retrieved Yoda after his battle with Emperor Palpatine?", 
+            "type": "Short", 
+            "answer": "Bail Organa",
+            "alias": ["Bail", "Organa"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "114"
+        },
+        {
+            "question": "What was Mace Windu's homeworld?", 
+            "type": "Short", 
+            "answer": "Haruun Kal",
+            "alias": ["Haruun", "Kal"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "115"
+        },
+        {
+            "question": "Who suggested that Master Kenobi should lead the mission to Utapau?", 
+            "type": "Short", 
+            "answer": "Ki-Adi-Mundi",
+            "alias": ["KiAdiMundi", "Ki-Adi", "Ki Adi Mundi", "Ki Adi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "116"
+        },
+        {
+            "question": "What Separatist leader was initially interested in General Grievous due to his particular gruesome war record?", 
+            "type": "Short", 
+            "answer": "San Hill",
+            "alias": ["San", "Hill"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "117"
+        },
+        {
+            "question": "What bounty hunter did Count Dooku pair with Asajj Ventress in his fight against the Republic?", 
+            "type": "Short", 
+            "answer": "Durge",
+            "alias": ["Durge"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "118"
+        },
+        {
+            "question": "What type of model ship was Luke playing with in his uncle's garage?", 
+            "type": "Short", 
+            "answer": "A T-16 Skyhopper",
+            "alias": ["T-16 Skyhopper", "T-16", "T16", "Skyhopper", "Sky hopper"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "119"
+        },
+        {
+            "question": "How many daughters did Ki-Adi-Mundi have?", 
+            "type": "Short", 
+            "answer": "Seven",
+            "alias": ["7"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "120"
+        },
+        {
+            "question": "Against what species were General Grievous and the Kaleesh in a battle before he joined the Separatists?", 
+            "type": "Short", 
+            "answer": "Huks",
+            "alias": ["Hukks", "The Huks", "The Hukks"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "121"
+        },
+        {
+            "question": "In which form of Lightsaber combat was Mace Windu a master?", 
+            "type": "Short", 
+            "answer": "Vaapad",
+            "alias": ["Varpad"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "122"
+        },
+        {
+            "question": "How many arms did General Grievous have?", 
+            "type": "Short", 
+            "answer": "Four",
+            "alias": ["4"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "123"
+        },
+        {
+            "question": "What did Mace Windu say surrounded the Chancellor?", 
+            "type": "Short", 
+            "answer": "The dark side of the force",
+            "alias": ["dark side of the force", "dark side", "the dark side"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "124"
+        },
+        {
+            "question": "Who did it turn out was responsible for erasing all information about Kamino from the Jedi Temple Archives?", 
+            "type": "Short", 
+            "answer": "Count Dooku",
+            "alias": ["Dooku"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "125"
+        },
+        {
+            "question": "What was Obi-Wan Kenobi's favoured style of Lightsaber combat?", 
+            "type": "Short", 
+            "answer": "Soresu",
+            "alias": ["Soresu"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "126"
+        },
+        {
+            "question": "What was Obi-Wan Kenobi's rank in the Grand Army of the Republic?", 
+            "type": "Short", 
+            "answer": "General",
+            "alias": ["General Kenobi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "127"
+        },
+        {
+            "question": "Where did Padmé want to have her baby?", 
+            "type": "Short", 
+            "answer": "Naboo",
+            "alias": ["On Naboo"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "128"
+        },
+        {
+            "question": "What was Ki-Adi-Mundi's rank during the Clone Wars?", 
+            "type": "Short", 
+            "answer": "General",
+            "alias": ["General Ki-Adi-Mundi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "129"
+        },
+        {
+            "question": "Who narrowly escaped an assassination attempt by Boba Fett on Xagobah?", 
+            "type": "Short", 
+            "answer": "Wat Tambor",
+            "alias": ["Tambor"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "130"
+        },
+        {
+            "question": "How old was Mace Windu when he joined the Jedi Council?", 
+            "type": "Short", 
+            "answer": "Twenty-eight",
+            "alias": ["28"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "131"
+        },
+        {
+            "question": "What Sith artifact did Darth Tyranus unleash on the Republic during the Clone Wars?", 
+            "type": "Short", 
+            "answer": "The Dark Reaper",
+            "alias": ["Dark Reaper", "Reaper"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "132"
+        },
+        {
+            "question": "Who retrieved Obi-Wan Kenobi's Lightsaber on Utapau?", 
+            "type": "Short", 
+            "answer": "Commander Cody",
+            "alias": ["Cody"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "133"
+        },
+        {
+            "question": "Which jedi helped fight the Quarren Isolationist League on Mon Calamari?", 
+            "type": "Short", 
+            "answer": "Kit Fisto",
+            "alias": ["Fisto", "Master Fisto", "Master Kit Fisto"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "134"
+        },
+        {
+            "question": "Who financed the rehabilitation of General Grievous?", 
+            "type": "Short", 
+            "answer": "San Hill",
+            "alias": ["Hill"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "135"
+        },
+        {
+            "question": "What was Delva Racine's occupation?", 
+            "type": "Short", 
+            "answer": "Fashion Designer",
+            "alias": ["Fashion", "Designer"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "136"
+        },
+        {
+            "question": "Who shouted, 'Then he's not dead!' when the shock troopers said they couldn't find Yoda?", 
+            "type": "Short", 
+            "answer": "Mas Amedda",
+            "alias": ["Amedda"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "137"
+        },
+        {
+            "question": "According to legend, who could use the dark side of the Force to create life?", 
+            "type": "Short", 
+            "answer": "Darth Plagueis",
+            "alias": ["Plagueis"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "138"
+        },
+        {
+            "question": "Who, along with Tarfful, escorted Yoda to an escape pod after the battle on Kashyyyk?", 
+            "type": "Short", 
+            "answer": "Chewbacca",
+            "alias": ["Chewie"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "139"
+        },
+        {
+            "question": "Who replaced Senator Lexi Dio after she was assassinated?", 
+            "type": "Short", 
+            "answer": "Male-Dee",
+            "alias": ["MaleDee", "Male Dee", "Dee"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "140"
+        },
+        {
+            "question": "Following his duel with Master Yoda, what clone Captain did Emperor Palpatine ask to prepare his shuttle?", 
+            "type": "Short", 
+            "answer": "Captain Kagi",
+            "alias": ["Kagi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "141"
+        },
+        {
+            "question": "How long had Chancellor Palpatine been in office when he was kidnapped?", 
+            "type": "Short", 
+            "answer": "Thirteen years",
+            "alias": ["13 years", "13 year", "13 yrs", "13y"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "142"
+        },
+        {
+            "question": "Who led the Battle of Kashyyyk?", 
+            "type": "Short", 
+            "answer": "Yoda",
+            "alias": ["Master Yoda"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "143"
+        },
+        {
+            "question": "Who discovered a secret Techno Union laboratory on Nelvaan?", 
+            "type": "Short", 
+            "answer": "Anakin Skywalker",
+            "alias": ["Anakin"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "144"
+        },
+        {
+            "question": "Who said, 'What an incredible smell you've discovered!' to Anakin?", 
+            "type": "Short", 
+            "answer": "Obi-Wan Kenobi",
+            "alias": ["Obiwan", "Kenobi", "Obi-Wan", "Obiwan Kenobi", "Obi", "Obi Wan"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "145"
+        },
+        {
+            "question": "Which one was Padmé's handmaidens? Ruwee, Motee, Yauee", 
+            "type": "Short", 
+            "answer": "Motee",
+            "alias": ["b"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "146"
+        },
+        {
+            "question": "What did Yoda tell Obi-Wan he had for him on Tatooine?", 
+            "type": "Short", 
+            "answer": "Training",
+            "alias": ["More training"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "147"
+        },
+        {
+            "question": "What name did Darth Sidious give his new apprentice?", 
+            "type": "Short", 
+            "answer": "Darth Vader",
+            "alias": ["Vader"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "148"
+        },
+        {
+            "question": "Who had good relations with the Wookiees?", 
+            "type": "Short", 
+            "answer": "Yoda",
+            "alias": ["Master Yoda"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "149"
+        },
+        {
+            "question": "What Jedi Master was riding a BARC speeder on Saleucami when Order 66 was given?", 
+            "type": "Short", 
+            "answer": "Strass Allie",
+            "alias": ["Strass", "Allie", "Stras Allie"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "150"
+        },
+        {
+            "question": "Which pilot exclaimed, 'Flying is for Droids!'?", 
+            "type": "Short", 
+            "answer": "Obi-Wan Kenobi",
+            "alias": ["Obiwan", "Kenobi", "Obi-Wan", "Obiwan Kenobi", "Obi", "Obi Wan"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "151"
+        },
+        {
+            "question": "Who helped Yoda defeat the Separatists and rescue Luminara Unduli and Barriss Offee on Ilum?", 
+            "type": "Short", 
+            "answer": "Padmé Amidala",
+            "alias": ["Padme Amidala", "Padmé", "Padme", "Senator Amidala", "Senator Padme Amidala", "Senator Padmé Amidala"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "152"
+        },
+        {
+            "question": "Who was captured by Asajj Ventress and placed in a Sith torture mask that hindered his ability to use the Force?", 
+            "type": "Short", 
+            "answer": "Obi-Wan Kenobi",
+            "alias": ["Obiwan", "Kenobi", "Obi-Wan", "Obiwan Kenobi", "Obi", "Obi Wan"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "153"
+        },
+        {
+            "question": "Into whose care did Bail Organa place R2-D2 and C-3PO?", 
+            "type": "Short", 
+            "answer": "Raymus Antilles",
+            "alias": ["Antilles", "Raymus"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "154"
+        },
+        {
+            "question": "Who was Darth Sidious' Sith Master?", 
+            "type": "Short", 
+            "answer": "Darth Plagueis",
+            "alias": ["Plagueis", "Darth Plagueis the Wise"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "155"
+        },
+        {
+            "question": "What Jedi fell prey to Order 66 on Felucia?", 
+            "type": "Short", 
+            "answer": "Aayla Secura",
+            "alias": ["Secura", "Master Aayla Secura"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "156"
+        },
+        {
+            "question": "Who urged Padmé to allow him to accompany her to Mustafar?", 
+            "type": "Short", 
+            "answer": "Captain Typho",
+            "alias": ["Typho"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "157"
+        },
+        {
+            "question": "Who was the Ithorian Jedi assigned to protect Chancellor Palpatine on Coruscant?", 
+            "type": "Short", 
+            "answer": "Roron Corobb",
+            "alias": ["Corobb", "Roron"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "158"
+        },
+        {
+            "question": "What senator wore a molf-tasseled overcloak?", 
+            "type": "Short", 
+            "answer": "Chi Eekway",
+            "alias": ["Eekway", "Chi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "159"
+        },
+        {
+            "question": "Who killed Count Dooku?", 
+            "type": "Short", 
+            "answer": "Anakin Skywalker",
+            "alias": ["Anakin", "Ani"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "160"
+        },
+        {
+            "question": "What Jedi Master was taken prisoner on Brentaal IV?", 
+            "type": "Short", 
+            "answer": "Agen Kolar",
+            "alias": ["Agen", "Kolar"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "161"
+        },
+        {
+            "question": "What stranded Jedi trained Asajj Ventress when she was a child?", 
+            "type": "Short", 
+            "answer": "Ky Narec",
+            "alias": ["Ky", "Narec"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "162"
+        },
+        {
+            "question": "From what animal's skull was General Grievous' facemask carved?", 
+            "type": "Short", 
+            "answer": "Huk",
+            "alias": ["A Huk", "Hukk", "A Hukk"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "163"
+        },
+        {
+            "question": "Who made contact with general Kenobi after Kenobi escaped Utapau?", 
+            "type": "Short", 
+            "answer": "Bail Organa",
+            "alias": ["Bail", "Organa"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "164"
+        },
+        {
+            "question": "When Obi-Wan was complaining, who said 'No loose wire jokes' to him?", 
+            "type": "Short", 
+            "answer": "Anakin Skywalker",
+            "alias": ["Anakin", "Ani"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "165"
+        },
+        {
+            "question": "Who said 'Well, did you notice the shields are still up?' during the battle over Coruscant?", 
+            "type": "Short", 
+            "answer": "Obi-Wan Kenobi",
+            "alias": ["Obiwan", "Kenobi", "Obi-Wan", "Obiwan Kenobi", "Obi", "Obi Wan"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "166"
+        },
+        {
+            "question": "Who said, 'Chancellor Palpatine, Sith Lords are out specialty'?", 
+            "type": "Short", 
+            "answer": "Mace Windu",
+            "alias": ["Mace", "Windu"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "167"
+        },
+        {
+            "question": "What were Anakin's last words to Mace Windu?", 
+            "type": "Short", 
+            "answer": "I need him!",
+            "alias": ["I need him", "I need him.", "I need him!!", "I need him!!!"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "168"
+        },
+        {
+            "question": "What did Padmé give to Anakin in honour of his being given the rank of Jedi Knight?", 
+            "type": "Short", 
+            "answer": "R2-D2",
+            "alias": ["R2D2", "R2 D2", "R2", "Rtoo", "Artoo"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "169"
+        },
+        {
+            "question": "Who lamented, 'So this is how liberty dies - to thunderous applause'?", 
+            "type": "Short", 
+            "answer": "Padmé Amidala",
+            "alias": ["Padme", "Padme Amidala", "Senator Amidala", "Padmé"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "170"
+        },
+        {
+            "question": "What did General Grievous collect?", 
+            "type": "Short", 
+            "answer": "Lightsabers",
+            "alias": ["Sabers", "Light swords", "Lightsaber", "Jedi Lightsabers", "Jedi Lightsaber"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "171"
+        },
+        {
+            "question": "Who represented Kuat in the Senate?", 
+            "type": "Short", 
+            "answer": "Giddean Danu",
+            "alias": ["Giddean", "Danu"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "172"
+        },
+        {
+            "question": "After his actions on which planet was Anakin awarded the title of jedi Knight, foregoing the Trials?", 
+            "type": "Short", 
+            "answer": "Nelvaan",
+            "alias": ["Planet Nelvaan", "On Nelvaan"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "173"
+        },
+        {
+            "question": "To whom was Anakin Skywalker entrusted as a Padawan when Obi-Wan Kenobi was presumed killed in battle?", 
+            "type": "Short", 
+            "answer": "Ki-Adi-Mundi",
+            "alias": ["KiAdiMundi", "Ki-Adi", "Ki Adi Mundi", "Ki Adi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "174"
+        },
+        {
+            "question": "According to legend, on what planet did Mace Windu retrieve the crystals to create his purple Lightsaber?", 
+            "type": "Short", 
+            "answer": "Hurikane",
+            "alias": ["On Hurikane", "Planet Hurikane"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "175"
+        },
+        {
+            "question": "With which Jedi Master did Bultar Swan lead forces on the planet Aargonar?", 
+            "type": "Short", 
+            "answer": "Ki-Adi-Mundi",
+            "alias": ["KiAdiMundi", "Ki-Adi", "Ki Adi Mundi", "Ki Adi"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "176"
+        },
+        {
+            "question": "Who did Anakin follow to Yavin 4?", 
+            "type": "Short", 
+            "answer": "Asajj Ventress",
+            "alias": ["Asajj", "Ventress"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "177"
+        },
+        {
+            "question": "Who was with Anakin in his vision of the cave on Dagobah?", 
+            "type": "Short", 
+            "answer": "Qui-Gon Jinn",
+            "alias": ["Qui-Gon", "Qui Gon Jinn", "Qui Gon", "QuiGon", "Qui-Gon Jin"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "178"
+        },
+        {
+            "question": "Which General in the Republic was assigned to protect Tipoca City when the Separatists attcked Kamino?", 
+            "type": "Short", 
+            "answer": "Shaak Ti",
+            "alias": ["Shaak", "Jedi Shaak Ti"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "179"
+        },
+        {
+            "question": "Who was the Utapaun Master of Port Administration?", 
+            "type": "Short", 
+            "answer": "Tion Medon",
+            "alias": ["Medon", "Tion"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "180"
+        },
+        {
+            "question": "Who was the consort of Duke Teta?", 
+            "type": "Short", 
+            "answer": "Koyi Mateil",
+            "alias": ["Koyi", "Mateil"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "181"
+        },
+        {
+            "question": "What was Captain Davijaan's nickname?", 
+            "type": "Short", 
+            "answer": "Odd Ball",
+            "alias": ["OddBall"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "182"
+        },
+        {
+            "question": "Who was the Talz Jedi assigned to protect Chancellor Palpatine from Grievous on Coruscant?", 
+            "type": "Short", 
+            "answer": "Foul Moudama",
+            "alias": ["Moudama", "Foul"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "183"
+        },
+        {
+            "question": "In the battle above Coruscant, who was Squad Seven leader?", 
+            "type": "Short", 
+            "answer": "Captain Davijaan (Odd Ball)",
+            "alias": ["Captain Davijaan", "Odd Ball", "Oddball"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "184"
+        },
+        {
+            "question": "Who adopted Padmé's daughter Leia?", 
+            "type": "Short", 
+            "answer": "Bail Organa",
+            "alias": ["Bail", "Organa", "The Organas", "Senator Organa"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "185"
+        },
+        {
+            "question": "Who was Tion Medon's aide?", 
+            "type": "Short", 
+            "answer": "Lampay Fay",
+            "alias": ["Lampay", "Fay"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "186"
+        },
+        {
+            "question": "Where was Count Dooku's hidden base in which he trained General Grievous?", 
+            "type": "Short", 
+            "answer": "The Trenchant Cruiser",
+            "alias": ["Trenchant Cruiser", "The Trenchant"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "187"
+        },
+        {
+            "question": "On which planet did Ki-Adi-Mundi die?", 
+            "type": "Short", 
+            "answer": "Mygeeto",
+            "alias": ["On Mygeeto"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "188"
+        },
+        {
+            "question": "Who called Anakin, 'Jedi Scum'?", 
+            "type": "Short", 
+            "answer": "General Grievous",
+            "alias": ["Grievous"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "189"
+        },
+        {
+            "question": "To whom did Count Dooku say, 'Don't let your pursuit of trinkets cloud your reality'?", 
+            "type": "Short", 
+            "answer": "General Grievous",
+            "alias": ["Grievous"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "190"
+        },
+        {
+            "question": "Who trained General Grievous in the Lightsaber arts?", 
+            "type": "Short", 
+            "answer": "Count Dooku",
+            "alias": ["Dooku"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "191"
+        },
+        {
+            "question": "Who said to Anakin, 'There is much feat that clouds your judgement'?", 
+            "type": "Short", 
+            "answer": "Mace Windu",
+            "alias": ["Mace", "Windu", "Master Windu"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "192"
+        },
+        {
+            "question": "On which planet did Obi-Wan and Anakin/Vader fight?", 
+            "type": "Short", 
+            "answer": "Mustafar",
+            "alias": ["On Mustafar"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "193"
+        },
+        {
+            "question": "How many Jedi accompanied Mace Windu to arrest Chancellor Palpatine?", 
+            "type": "Short", 
+            "answer": "Three",
+            "alias": ["3"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "194"
+        },
+        {
+            "question": "Who said to Obi-Wan, 'When have I ever let you down?'?", 
+            "type": "Short", 
+            "answer": "Commander Cody",
+            "alias": ["Cody"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "195"
+        },
+        {
+            "question": "What colour was Anakin's starfighter after he lost his red one?", 
+            "type": "Short", 
+            "answer": "Green",
+            "alias": ["It was green", "Green and Grey", "Green and Gray", "Green + Grey", "Green + Gray"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "196"
+        },
+        {
+            "question": "How many times does Obi-Wan say that Anakin has saved his life?", 
+            "type": "Short", 
+            "answer": "Nine",
+            "alias": ["9"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "197"
+        },
+        {
+            "question": "Which Jedi is shown accompanying Yoda on Kashyyyk?", 
+            "type": "Short", 
+            "answer": "Luminara Unduli",
+            "alias": ["Luminara", "Unduli"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "198"
+        },
+        {
+            "question": "How many years after Attack of the Clones did Revenge of the Sith take place?", 
+            "type": "Short", 
+            "answer": "Three",
+            "alias": ["3", "About three", "About 3"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "199"
+        },
+        {
+            "question": "Who played Obi-Wan Kenobi?", 
+            "type": "Short", 
+            "answer": "Ewan McGregor",
+            "alias": ["Jesus", "Ewan Macgregor"],
+            "category": "rots",
+            "difficulty": "Easy",
+            "id": "200"
         }
     ]
 }

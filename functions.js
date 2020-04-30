@@ -41,48 +41,6 @@ module.exports = {
             .then(collected => collected.first() && collected.first().emoji.name);
     },
 
-    reportQuestion: function(client, messageReaction, user, author) {
-
-        if(!user.bot) {
-            
-            if (messageReaction.emoji.name === '📰') {
-
-                const { MessageEmbed } = require('discord.js');
-                const trivia = require('./commands/fun/trivia.js');
-                const reportChannelID = '700297733734531162';
-
-                const embedReportQ = new MessageEmbed()
-                    .setDescription(`Q: **${trivia.question}**\nA: **${trivia.answer}**`)
-                    .setFooter("Expires in [1] minutes")
-                    .setColor("RED")
-                
-                const feedback = `${user} **PLEASE TYPE FEEDBACK:**`
-
-                client.channels.cache.get(reportChannelID).send(embedReportQ).then(msg => msg.delete({timeout: 50000}));;
-                client.channels.cache.get(reportChannelID).send(feedback).then(msg => msg.delete({timeout: 50000}));;
-
-                client.on('message', (message) => {
-
-                    if (message.content == feedback) return;
-                    if (message.channel == reportChannelID && message.author == author) {
-
-                        message.delete();
-
-                        client.channels.cache.get(reportChannelID)
-                            .send(embedReportQ
-                                .setDescription(`Q: **${trivia.question}**\nA: **${trivia.answer}**\n\nFeedback: \`\`\`${message.content}\`\`\``)
-                                .setColor("GREEN")
-                                .setFooter("Submitted!! Thank you for your feedback!"))
-
-                    } else if (message.channel == reportChannelID && user.id != author.id) {
-
-                        message.delete();
-                    }
-                });
-            } 
-        }
-    },
-    
     delay: function(time) {
         return new Promise((resolve, reject) => {
             setTimeout(() => {

@@ -45,13 +45,15 @@ function getCMD(client, message, input) {
         return message.channel.send(embed.setColor("RED").setDescription(info));
     }
 
-    if (cmd.name) info = `**Command name**: ${cmd.name}`;
+    if (cmd.name) info = `**Name**: ${cmd.name}`;
     if (cmd.aliases) info += `\n**Aliases**: ${cmd.aliases.map(a => `\`${a}\``).join(", ")}`;
     if (cmd.description) info += `\n**Description**: ${cmd.description}`;
-    if (cmd.usage) {
-        info += `\n**Usage**: ${cmd.usage}`;
-        embed.setFooter(`Syntax: <> = required, [] = optional`);
-    }
+    if (cmd.usage) info += `\n**Usage:** ${cmd.usage}`;
+    if (cmd.example) info += `\n**Example:** ${cmd.example}`;
+    //if (cmd.usage) {
+        //info += `\n**Usage**: ${cmd.usage}`;
+        //embed.setFooter(`Syntax: <> = required, [] = optional`);
+    //}
 
     return message.channel.send(embed.setColor("GREEN").setDescription(info));
 }

@@ -27,7 +27,7 @@ client.on("ready", () => {
     client.user.setPresence({
         status: "online",
         activity: {
-            name: "my development",
+            name: "my development (v1.01)",
             type: "WATCHING"
         }
     }); 
