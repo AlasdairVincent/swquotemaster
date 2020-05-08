@@ -71,5 +71,8 @@ module.exports = {
             collector.on('end', collected => resolve(collected.map(m => m.content.toLowerCase())));
         });
     }
-    
 }
+
+
+    // FUNCTIONS FOR swscripts.js
+    

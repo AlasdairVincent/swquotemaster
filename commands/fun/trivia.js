@@ -1,6 +1,8 @@
 const { MessageEmbed } = require('discord.js');
 const fs = require('fs');
 const fetch = require('node-fetch');
+const congrats = JSON.parse(fs.readFileSync('./winner.json'));
+
 
 // const reportChannelID = '700297733734531162';
 const answerTime = 60000;
@@ -8,6 +10,7 @@ let loop;
 
 const cooldown = new Set();
 
+const starWarsTrivia = '707485572825874492';
 
 module.exports = {
     name: 'trivia',
@@ -15,6 +18,12 @@ module.exports = {
     description: 'Use `!trivia -q` to ask a question without a quote',
     category: 'fun',
     run: async (client, message, args, author) => {
+        
+        if (message.channel.id !== starWarsTrivia) {
+            message.delete();
+            await message.channel.send(`**Please take all trivia games to ${message.guild.channels.cache.get(starWarsTrivia).toString()}**\n*Now take your things and leave ${message.member}.*`).then(m => m.delete({timeout: 10000}));
+            return;
+        }
     
         // HELP COMMAND
         if (args[0] === 'help') {
@@ -46,7 +55,7 @@ module.exports = {
             const embed = new MessageEmbed()
                 .setTitle(question)
                 // .setDescription(`Type: ${type}`)
-                .setFooter(`Easy - Hard | ID: ${id}`)
+                .setFooter(`ID: ${id}`) //Easy - Hard | 
                 .setColor("#BF0000")
                 .attachFiles([`../swquotemaster/images/${category}.jpg`])
                 .setThumbnail(`attachment://${category}.jpg`)
@@ -59,29 +68,38 @@ module.exports = {
 
             const m = await message.channel.send(embed);
 
-            await m.react('🅰️');
+            await setTimeout(() => {
+                m.react('🅰️');
+            }, 2000);
             
             let answerBox = true;
+
+
+// REMOVE client.on INSIDE COMMAND HANDLER
 
             // CHECK MESSAGE FOR ANSWER - UPDATE WITH COLLECTORS
             client.on('message', (message) => {
                 if (message.author.bot) return; 
 
 
-
+                    if (answer === undefined) return;
                     if (message.content.toLowerCase() == answer.toLowerCase() 
                             || alias.some(answer => answer.toLowerCase() === message.content.toLowerCase()))
                     {
-                        if (cooldown.has(message.author.id)) return;
-                        cooldown.add(message.author.id);
+                        if (cooldown.has(1)) return;
+                        cooldown.add(1);
 
-                        message.channel.send(`**${message.member} is flexing his knowledge.**`);
+                        let random = Math.floor(Math.random() * congrats.winner.length);
+                        let randomCongrats = congrats.winner[random];
+                        let congratulations = randomCongrats.congrats;
+
+                        message.channel.send(`**${message.member} ${congratulations}**`);
                         answerBox = false;
                         m.reactions.removeAll().catch(error => console.error('Failed to clear reactions: ', error));
                         loop = true;
-
+                        answer = undefined;
                         setTimeout(() => {
-                            cooldown.delete(message.author.id);
+                            cooldown.delete(1);
                         }, 3000);
                     } 
             });
@@ -90,7 +108,7 @@ module.exports = {
             await m.awaitReactions(filter, { max: 1, idle: answerTime });
 
             // ANSWER BOX w/ REPORT EMOJI
-            if ( answerBox === true )
+            if ( answerBox === true && !(answer === undefined))
             {
                 const embed2 = new MessageEmbed()
                     .setTitle(`**${answer}**`)
@@ -101,6 +119,8 @@ module.exports = {
                 await message.channel.send(embed2);
 
                 m.reactions.removeAll().catch(error => console.error('Failed to clear reactions: ', error));
+
+                answer = undefined;
             }
 
             loop = true;
@@ -108,5 +128,6 @@ module.exports = {
             message.channel.send("Woh!! There's already a question being asked!");
             return;
         }
+        return;
     }
 }

@@ -1,0 +1,37 @@
+{
+    "response_code": 0,
+    "winner": [
+        {"id": "1", "congrats": "is on their way to becoming a Jedi."},
+        {"id": "2", "congrats": "harnessed the power of the force."},
+        {"id": "3", "congrats": "cheated by reading a holocron!"},
+        {"id": "4", "congrats": "actually listened to Yoda's teachings."},
+        {"id": "5", "congrats": "is just better than you."},
+        {"id": "6", "congrats": "doesn't have a life."},
+        {"id": "7", "congrats": "reached deep into the archives.  Jocasta is proud."},
+        {"id": "8", "congrats": "just received his invitation to the Imperial Academy!"},
+        {"id": "9", "congrats": "has achieved nerd status."},
+        {"id": "10", "congrats": "doesn't usually get these right.  They must have had one too many death sticks."},
+        {"id": "11", "congrats": "bribed the Emperor for that one."},
+        {"id": "12", "congrats": "got it right.  Don't get cocky, kid."},
+        {"id": "13", "congrats": "added another answer to his collection."},
+        {"id": "14", "congrats": "is flexing their knowledge."},
+        {"id": "15", "congrats": "has a Star Wars watch-time bigger than Mace Windu's ego!"},
+        {"id": "16", "congrats": "found the answer they were looking for."}
+
+    ],
+    "drafts": [
+        {"id": "17", "congrats": ""},
+        {"id": "18", "congrats": ""},
+        {"id": "19", "congrats": ""},
+        {"id": "20", "congrats": ""},
+        {"id": "21", "congrats": ""},
+        {"id": "22", "congrats": ""},
+        {"id": "23", "congrats": ""},
+        {"id": "24", "congrats": ""},
+        {"id": "25", "congrats": ""},
+        {"id": "26", "congrats": ""},
+        {"id": "27", "congrats": ""},
+        {"id": "28", "congrats": ""},
+        {"id": "29", "congrats": ""}
+    ]
+}

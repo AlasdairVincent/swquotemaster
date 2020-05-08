@@ -1,6 +1,6 @@
 {
     "response_code": 0,
-    "ROTS-SCRIPT": [
+    "ROTSSCRIPT": [
         { "id": "1", "quote": "A long time ago in a galaxy far, far away."},
         { "id": "2", "quote": "A vast sea of stars serves as the backdrop for the Main Title, followed by a rollup, which crawls into infinity."},
         { "id": "3", "quote": "War! The Republic is crumbling under attacks by the ruthless Sith Lord, Count Dooku. There are heroes on both sides. Evil is everywhere."},
@@ -1323,7 +1323,7 @@
         { "id": "1320", "quote": "129 EXT. KASHYYYK-MEETING HALL-DAY"},
         { "id": "1321", "quote": "YODA winces, closes his eyes, and holds his head. He feels a disturbance in the Force."},
         { "id": "1322", "quote": "130 INT. CORUSCANT-CHANCELLOR'S OFFICE-EVENING"},
-        { "id": "1323", "quote": "PALPATINE is putting on his dark cloak: he is now fully DARTH SIDIOUS."},
+        { "id": "1323", "quote": "PALPATINE is putting on his dark cloak - he is now fully DARTH SIDIOUS."},
         { "id": "1324", "quote": "PALPATINE: Because the Council did not trust you, my young apprentice, I believe you are the only Jedi with no knowledge of this plot. When the Jedi learn what has transpired here, they will kill us, along with all the Senators."},
         { "id": "1325", "quote": "ANAKIN: I agree. The Jedi's next move will be against the Senate."},
         { "id": "1326", "quote": "PALPATINE: Every single Jedi, including your friend Obi-Wan Kenobi, is now an enemy of the Republic. You understand that, don't you?"},
@@ -1378,7 +1378,7 @@
         { "id": "1375", "quote": "138 INT. CATO NEIMOIDIA-JEDI STARFIGHTER-DAY"},
         { "id": "1376", "quote": "PLO KOON heads his ship toward a battle on a landing platform."},
         { "id": "1377", "quote": "PLO KOON: There they are. Land on the nearest platform."},
-        { "id": "1378", "quote": "139 EXT. CATO XEIMOIDIA-JEDI STARFIGHTER-DAY"},
+        { "id": "1378", "quote": "139 EXT. CATO NEIMOIDIA-JEDI STARFIGHTER-DAY"},
         { "id": "1379", "quote": "The FOUR CLONE PILOTS with PLO KOON drop back and blast him out of the sky."},
         { "id": "1380", "quote": "140 EXT. SALEUCAMI-FOREST"},
         { "id": "1381", "quote": "Three Speeder Bikes race through the forest. A Jedi, STASS ALLIE is in the lead. The TWO CLONES following her drop back and blast her, causing her to crash in a huge EXPLOSION."},
