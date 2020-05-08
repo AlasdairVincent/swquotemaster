@@ -57,8 +57,8 @@ module.exports = {
                 // .setDescription(`Type: ${type}`)
                 .setFooter(`ID: ${id}`) //Easy - Hard | 
                 .setColor("#BF0000")
-                .attachFiles([`../swquotemaster/images/${category}.jpg`])
-                .setThumbnail(`attachment://${category}.jpg`)
+                // .attachFiles([`../swquotemaster/images/${category}.jpg`])
+                // .setThumbnail(`attachment://${category}.jpg`)
 
             let quote = await fetch('http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote')
                 .then(res => res.json())
