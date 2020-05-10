@@ -14,7 +14,7 @@ const starWarsTrivia = '707485572825874492';
 
 module.exports = {
     name: 'trivia',
-    aliases: ['t'],
+    aliases: ['t', 'pway'],
     description: 'Use `!trivia -q` to ask a question without a quote',
     category: 'fun',
     run: async (client, message, args, author) => {
